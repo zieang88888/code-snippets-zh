@@ -123,7 +123,8 @@ const deepEqual = (a, b) => {
     if (keysA.length !== keysB.length) return false;
     return keysA.every(k => deepEqual(a[k], b[k]));
   }
-  return false;\n};
+  return false;
+};
 deepEqual({ a: [1, { b: 2 }] }, { a: [1, { b: 2 }] }); // true
 ```
 - **说明**：判断两次提交的数据是否有变化。
