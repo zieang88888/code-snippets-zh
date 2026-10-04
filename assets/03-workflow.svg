@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Consolas, 'Courier New', monospace">
+  <rect width="1200" height="800" fill="#FAF6EF"/>
+
+  <text x="600" y="60" text-anchor="middle" font-size="30" font-weight="bold" fill="#B23A2E">
+    四步上手 · 从需求到可用代码
+  </text>
+  <text x="600" y="95" text-anchor="middle" font-size="15" fill="#1F1B16">
+    search → find → copy → adapt
+  </text>
+
+  <g>
+    <rect x="50" y="200" width="250" height="300" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="175" y="245" text-anchor="middle" font-size="48" font-weight="bold" fill="#B23A2E">01</text>
+    <text x="175" y="290" text-anchor="middle" font-size="20" font-weight="bold" fill="#1F1B16">搜分类</text>
+    <text x="175" y="330" text-anchor="middle" font-size="14" fill="#1F1B16">打开对应目录 md</text>
+    <text x="175" y="355" text-anchor="middle" font-size="14" fill="#1F1B16">按 9 大类定位</text>
+    <text x="175" y="420" text-anchor="middle" font-size="13" fill="#B23A2E">┌─────────┐</text>
+    <text x="175" y="442" text-anchor="middle" font-size="13" fill="#B23A2E">│ 03-dom  │</text>
+    <text x="175" y="464" text-anchor="middle" font-size="13" fill="#B23A2E">│ 04-async│</text>
+    <text x="175" y="486" text-anchor="middle" font-size="13" fill="#B23A2E">└─────────┘</text>
+  </g>
+
+  <text x="320" y="360" text-anchor="middle" font-size="40" fill="#B23A2E">→</text>
+
+  <g>
+    <rect x="360" y="200" width="250" height="300" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="485" y="245" text-anchor="middle" font-size="48" font-weight="bold" fill="#B23A2E">02</text>
+    <text x="485" y="290" text-anchor="middle" font-size="20" font-weight="bold" fill="#1F1B16">找片段</text>
+    <text x="485" y="330" text-anchor="middle" font-size="14" fill="#1F1B16">Ctrl+F 搜关键词</text>
+    <text x="485" y="355" text-anchor="middle" font-size="14" fill="#1F1B16">看「作用」一句话</text>
+    <text x="485" y="420" text-anchor="middle" font-size="13" fill="#B23A2E">┌─────────┐</text>
+    <text x="485" y="442" text-anchor="middle" font-size="13" fill="#B23A2E">│ debounce│</text>
+    <text x="485" y="464" text-anchor="middle" font-size="13" fill="#B23A2E">│ throttle│</text>
+    <text x="485" y="486" text-anchor="middle" font-size="13" fill="#B23A2E">└─────────┘</text>
+  </g>
+
+  <text x="630" y="360" text-anchor="middle" font-size="40" fill="#B23A2E">→</text>
+
+  <g>
+    <rect x="670" y="200" width="250" height="300" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="795" y="245" text-anchor="middle" font-size="48" font-weight="bold" fill="#B23A2E">03</text>
+    <text x="795" y="290" text-anchor="middle" font-size="20" font-weight="bold" fill="#1F1B16">拷代码</text>
+    <text x="795" y="330" text-anchor="middle" font-size="14" fill="#1F1B16">复制 JS / Python 块</text>
+    <text x="795" y="355" text-anchor="middle" font-size="14" fill="#1F1B16">贴进你的项目</text>
+    <text x="795" y="420" text-anchor="middle" font-size="13" fill="#B23A2E">┌─────────┐</text>
+    <text x="795" y="442" text-anchor="middle" font-size="13" fill="#B23A2E">│ const d │</text>
+    <text x="795" y="464" text-anchor="middle" font-size="13" fill="#B23A2E">│ = deb.. │</text>
+    <text x="795" y="486" text-anchor="middle" font-size="13" fill="#B23A2E">└─────────┘</text>
+  </g>
+
+  <text x="940" y="360" text-anchor="middle" font-size="40" fill="#B23A2E">→</text>
+
+  <g>
+    <rect x="980" y="200" width="180" height="300" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="1070" y="245" text-anchor="middle" font-size="48" font-weight="bold" fill="#B23A2E">04</text>
+    <text x="1070" y="290" text-anchor="middle" font-size="20" font-weight="bold" fill="#1F1B16">适配</text>
+    <text x="1070" y="330" text-anchor="middle" font-size="13" fill="#1F1B16">看「说明」</text>
+    <text x="1070" y="350" text-anchor="middle" font-size="13" fill="#1F1B16">看「注意」</text>
+    <text x="1070" y="370" text-anchor="middle" font-size="13" fill="#1F1B16">改一改</text>
+    <text x="1070" y="420" text-anchor="middle" font-size="13" fill="#B23A2E">┌───────┐</text>
+    <text x="1070" y="442" text-anchor="middle" font-size="13" fill="#B23A2E">│ ms=500│</text>
+    <text x="1070" y="464" text-anchor="middle" font-size="13" fill="#B23A2E">│ on/off│</text>
+    <text x="1070" y="486" text-anchor="middle" font-size="13" fill="#B23A2E">└───────┘</text>
+  </g>
+
+  <text x="600" y="600" text-anchor="middle" font-size="18" fill="#1F1B16">
+    每条片段四要素：作用 · 代码 · 说明 · 注意
+  </text>
+  <text x="600" y="640" text-anchor="middle" font-size="16" fill="#B23A2E">
+    344 条精选 · 中文原创讲解 · 源自 128K 星项目
+  </text>
+
+</svg>

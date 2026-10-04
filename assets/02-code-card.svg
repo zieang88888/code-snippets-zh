@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Consolas, 'Courier New', monospace">
+  <rect width="1200" height="800" fill="#FAF6EF"/>
+
+  <text x="600" y="60" text-anchor="middle" font-size="30" font-weight="bold" fill="#B23A2E">
+    示例片段 · debounce（防抖）
+  </text>
+  <text x="600" y="95" text-anchor="middle" font-size="15" fill="#1F1B16">
+    高频事件停止触发后 ms 毫秒才执行一次
+  </text>
+
+  <text x="80" y="150" font-size="16" fill="#B23A2E">┌──────────────────────────────────────────────────────────────────────────────────────────┐</text>
+
+  <text x="100" y="180" font-size="16" fill="#1F1B16">│  const debounce = (fn, ms = 300) =&gt; {                                            │</text>
+  <text x="100" y="208" font-size="16" fill="#1F1B16">│    let timer;                                                                     │</text>
+  <text x="100" y="236" font-size="16" fill="#1F1B16">│    return (...args) =&gt; {                                                          │</text>
+  <text x="100" y="264" font-size="16" fill="#B23A2E" font-weight="bold">│      clearTimeout(timer);    // 清掉上一次                                  │</text>
+  <text x="100" y="292" font-size="16" fill="#1F1B16">│      timer = setTimeout(                                                          │</text>
+  <text x="100" y="320" font-size="16" fill="#1F1B16">│        () =&gt; fn.apply(null, args), ms                                              │</text>
+  <text x="100" y="348" font-size="16" fill="#1F1B16">│      );                                                                           │</text>
+  <text x="100" y="376" font-size="16" fill="#1F1B16">│    };                                                                             │</text>
+  <text x="100" y="404" font-size="16" fill="#1F1B16">│  };                                                                               │</text>
+
+  <text x="80" y="440" font-size="16" fill="#B23A2E">└──────────────────────────────────────────────────────────────────────────────────────────┘</text>
+
+  <text x="80" y="490" font-size="16" font-weight="bold" fill="#B23A2E">// 用法：</text>
+  <text x="80" y="520" font-size="16" fill="#1F1B16">window.addEventListener('resize', debounce(() =&gt; console.log('resized'), 200));</text>
+
+  <text x="80" y="560" font-size="16" font-weight="bold" fill="#B23A2E">// 场景：</text>
+  <text x="80" y="590" font-size="16" fill="#1F1B16">搜索框输入 · window.resize · 滚动事件 · 按钮防连点</text>
+
+  <text x="80" y="630" font-size="16" font-weight="bold" fill="#B23A2E">// 注意：</text>
+  <text x="80" y="660" font-size="16" fill="#1F1B16">组件卸载记得 clearTimeout；需要「每 N 毫秒必跑一次」用 throttle</text>
+
+  <text x="80" y="720" font-size="14" fill="#B23A2E">→ 更多 DOM 片段见 snippets/03-dom-browser.md</text>
+
+</svg>

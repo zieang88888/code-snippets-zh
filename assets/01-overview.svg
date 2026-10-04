@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Consolas, 'Courier New', monospace">
+  <rect width="1200" height="800" fill="#FAF6EF"/>
+
+  <text x="600" y="60" text-anchor="middle" font-size="32" font-weight="bold" fill="#B23A2E">
+    CODE-SNIPPETS-ZH · 分类全景
+  </text>
+  <text x="600" y="95" text-anchor="middle" font-size="16" fill="#1F1B16">
+    344 snippets · 9 categories · JS + Python
+  </text>
+
+  <text x="60" y="130" font-size="14" fill="#B23A2E">+------------------------------------------------------------------+</text>
+
+  <g>
+    <rect x="60" y="150" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="80" y="185" font-size="18" font-weight="bold" fill="#B23A2E">01 数组与对象</text>
+    <text x="80" y="215" font-size="14" fill="#1F1B16">  去重 / 分组 / 深拷贝</text>
+    <text x="80" y="235" font-size="14" fill="#1F1B16">  合并 / 拍平 / 排序</text>
+    <text x="80" y="295" font-size="28" font-weight="bold" fill="#B23A2E">40 条</text>
+  </g>
+
+  <g>
+    <rect x="420" y="150" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="440" y="185" font-size="18" font-weight="bold" fill="#B23A2E">02 字符串格式化</text>
+    <text x="440" y="215" font-size="14" fill="#1F1B16">  千分位 / 截断 / 驼峰</text>
+    <text x="440" y="235" font-size="14" fill="#1F1B16">  转义 / 模板 / 哈希</text>
+    <text x="440" y="295" font-size="28" font-weight="bold" fill="#B23A2E">40 条</text>
+  </g>
+
+  <g>
+    <rect x="780" y="150" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="800" y="185" font-size="18" font-weight="bold" fill="#B23A2E">03 DOM 与浏览器</text>
+    <text x="800" y="215" font-size="14" fill="#1F1B16">  防抖节流 / 复制 / 全屏</text>
+    <text x="800" y="235" font-size="14" fill="#1F1B16">  滚动 / 事件 / 视口</text>
+    <text x="800" y="295" font-size="28" font-weight="bold" fill="#B23A2E">40 条</text>
+  </g>
+
+  <g>
+    <rect x="60" y="360" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="80" y="395" font-size="18" font-weight="bold" fill="#B23A2E">04 异步 Promise</text>
+    <text x="80" y="425" font-size="14" fill="#1F1B16">  重试 / 并发限制 / 超时</text>
+    <text x="80" y="445" font-size="14" fill="#1F1B16">  队列 / 降级 / 退避</text>
+    <text x="80" y="505" font-size="28" font-weight="bold" fill="#B23A2E">36 条</text>
+  </g>
+
+  <g>
+    <rect x="420" y="360" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="440" y="395" font-size="18" font-weight="bold" fill="#B23A2E">05 函数与工具</text>
+    <text x="440" y="425" font-size="14" fill="#1F1B16">  柯里化 / 记忆化 / 深比较</text>
+    <text x="440" y="445" font-size="14" fill="#1F1B16">  类型判断 / 管道 / 组合</text>
+    <text x="440" y="505" font-size="28" font-weight="bold" fill="#B23A2E">40 条</text>
+  </g>
+
+  <g>
+    <rect x="780" y="360" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="800" y="395" font-size="18" font-weight="bold" fill="#B23A2E">06 日期时间</text>
+    <text x="800" y="425" font-size="14" fill="#1F1B16">  格式化 / 相对时间 / 周数</text>
+    <text x="800" y="445" font-size="14" fill="#1F1B16">  加减天 / 季度 / 工作日</text>
+    <text x="800" y="505" font-size="28" font-weight="bold" fill="#B23A2E">36 条</text>
+  </g>
+
+  <g>
+    <rect x="60" y="570" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="80" y="605" font-size="18" font-weight="bold" fill="#B23A2E">07 数字与数学</text>
+    <text x="80" y="635" font-size="14" fill="#1F1B16">  随机数 / 距离 / 进制</text>
+    <text x="80" y="655" font-size="14" fill="#1F1B16">  中位数 / 标准差 / 范围</text>
+    <text x="80" y="715" font-size="28" font-weight="bold" fill="#B23A2E">36 条</text>
+  </g>
+
+  <g>
+    <rect x="420" y="570" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="440" y="605" font-size="18" font-weight="bold" fill="#B23A2E">08 轻量算法</text>
+    <text x="440" y="635" font-size="14" fill="#1F1B16">  快排 / 二分 / LRU / 栈</text>
+    <text x="440" y="655" font-size="14" fill="#1F1B16">  队列 / 链表 / 滑动窗口</text>
+    <text x="440" y="715" font-size="28" font-weight="bold" fill="#B23A2E">36 条</text>
+  </g>
+
+  <g>
+    <rect x="780" y="570" width="360" height="180" fill="#FFFFFF" stroke="#B23A2E" stroke-width="2"/>
+    <text x="800" y="605" font-size="18" font-weight="bold" fill="#B23A2E">09 Python 实用</text>
+    <text x="800" y="635" font-size="14" fill="#1F1B16">  文件 / 推导式 / 装饰器</text>
+    <text x="800" y="655" font-size="14" fill="#1F1B16">  字典技巧 / 路径 / 哈希</text>
+    <text x="800" y="715" font-size="28" font-weight="bold" fill="#B23A2E">40 条</text>
+  </g>
+
+</svg>
