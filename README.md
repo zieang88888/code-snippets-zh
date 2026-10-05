@@ -5,6 +5,8 @@
 
 ![classification](assets/01-overview.svg)
 
+⭐ 如果对你有帮助，点个 Star 支持中文开源
+
 ## ✨ 这仓库解决什么痛点？
 
 写码时突然想不起来「千分位怎么打」「防抖怎么写」「深拷贝怎么实现」——
@@ -87,3 +89,17 @@ const debounce = (fn, ms = 300) => {
 ---
 
 **If this repo saves you 10 minutes on a Tuesday, give it a ⭐.**
+
+
+## 姊妹项目
+
+中文开源矩阵，一网打尽开发者的知识库：
+
+- [zhskills · 中文技能库](https://github.com/zieang88888/zhskills)
+- [awesome-ai-tools-zh · AI 工具导航](https://github.com/zieang88888/awesome-ai-tools-zh)
+- [free-programming-books-zh · 编程书籍大全](https://github.com/zieang88888/free-programming-books-zh)
+- [system-design-zh · 系统设计面试](https://github.com/zieang88888/system-design-zh)
+- [awesome-python-zh · Python 生态导航](https://github.com/zieang88888/awesome-python-zh)
+- [ohmyzsh-zh · 终端效率神器](https://github.com/zieang88888/ohmyzsh-zh)
+- [llm-course-zh · LLM 课程导航](https://github.com/zieang88888/llm-course-zh)
+- [design-resources-for-developers-zh · 设计资源大全](https://github.com/zieang88888/design-resources-for-developers-zh)
